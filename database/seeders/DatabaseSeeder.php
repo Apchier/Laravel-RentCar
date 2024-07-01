@@ -21,22 +21,24 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        Mobil::create([
-            'user_id' => 1,
-            'plat_nomor' => 'B 1234 CD',
-            'merk' => 'BMW',
-            'jenis' => 'BMW',
-            'harga' => 'Rp 2.000.000',
-            'foto' => 'path_to_foto.jpg',
-        ]);
+        // Mobil::create([
+        //     'user_id' => 1,
+        //     'plat_nomor' => 'B 1234 CD',
+        //     'merk' => 'BMW',
+        //     'jenis' => 'BMW',
+        //     'harga' => 'Rp 2.000.000',
+        //     'foto' => 'path_to_foto.jpg',
+        // ]);
 
-        Mobil::create([
-            'user_id' => 2,
-            'plat_nomor' => 'D 5678 EF',
-            'merk' => 'Lamborghini',
-            'jenis' => 'Lamborghini',
-            'harga' => 'Rp 3.000.000',
-            'foto' => 'path_to_foto.jpg',
-        ]);
+        // Mobil::create([
+        //     'user_id' => 2,
+        //     'plat_nomor' => 'D 5678 EF',
+        //     'merk' => 'Lamborghini',
+        //     'jenis' => 'Lamborghini',
+        //     'harga' => 'Rp 3.000.000',
+        //     'foto' => 'path_to_foto.jpg',
+        // ]);
+
+        Mobil::factory(9)->create();
     }
 }
